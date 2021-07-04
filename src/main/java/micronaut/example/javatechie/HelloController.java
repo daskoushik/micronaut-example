@@ -9,10 +9,10 @@ public class HelloController {
 
     @Get("/message")
     public String message() {
-        return "Welcome to javatechie";
+        return "Welcome to Java Micronaut World";
     }
     @Get("/employee")
     public Employee getEmployee() {
-        return new Employee(101,"John");
+        return new Employee(101,"Koushik Das");
     }
 }
